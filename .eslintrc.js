@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
     env: {
         browser: true,
@@ -25,5 +24,11 @@ module.exports = {
         'object-curly-spacing': ['error', 'always'],
         'no-trailing-spaces': 'error',
         'no-plusplus': 'off',
+        'one-var': ['error', 'never'],
+        'one-var-declaration-per-line': ['error', 'always'],
+        'no-unused-expressions': ['error', { allowTernary: true }],
+        'no-continue': 'off',
+        eqeqeq: 'off',
+        'no-template-curly-in-string': 'off',
     },
 };
