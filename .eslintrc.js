@@ -15,6 +15,10 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
+        'prefer-arrow-callback': 'off',
+        'guard-for-in': 'off',
+        'no-restricted-syntax': 'off',
+        'consistent-return': 'off',
         'no-console': 'off',
         'no-unused-vars': 'off',
         'no-undef': 'off',
